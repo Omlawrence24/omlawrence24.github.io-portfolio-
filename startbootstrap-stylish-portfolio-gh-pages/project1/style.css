@@ -1,0 +1,136 @@
+
+*{
+    background-color: black;
+    color: white;
+    text-align: center;
+    cursor: auto;
+   width: 100%;
+   font-family: 'Courier Prime', monospace;
+}
+
+
+.fonts{
+    font-family: 'Courier Prime', monospace;
+}
+
+.heading{
+    font-family: 'Cinzel Decorative', cursive;
+        font-size: 54px;
+        margin-top: -1px;
+   
+}
+.main-intro{
+    font-family: 'Courier Prime', monospace;
+     
+}
+
+
+.card-info{
+    margin-top: 5px;
+    margin-bottom: 10px;
+  
+    padding-top: 5px;
+    
+}
+
+.card-body{
+    background-color: tomato;
+    font-size: x-large;
+
+}
+
+/* carousel */
+.slideshow{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+
+
+/* inventory */
+.inventory{
+    margin-bottom: 50px;
+    text-align: center;
+}
+.head{
+    margin-bottom: 50px;
+    
+}
+
+/* contacts */
+#status{
+   width: 90%;
+   max-width: 500px;
+   text-align: center;
+    padding: 10px;
+    margin: 0 auto;   
+}
+
+#status.success{
+    background-color: rgb(128, 30, 0);
+    animation: status 3s ease forwards;
+}
+
+#status.error{
+    background-color:red;
+    animation: status 4s ease forwards;
+}
+
+@keyframes status{
+    0% {
+        opacity: 1;
+        pointer-events: all;
+
+    }
+   
+    90% {
+        opacity: 1;
+        pointer-events: all;
+    
+    }
+    100%{
+        opacity: 0;
+        pointer-events: none;
+    }
+}
+button[type="submit"]{
+    background-color: tomato;
+transition: .3s ease background-color
+}
+.contact{
+  
+ 
+  
+}
+
+/* footer */
+.footer{
+    background-color: tomato;
+    color: white;
+
+}
+.logo-footer{
+    margin-left: 2px;
+}
+
+/* ************************Responsive************************** */
+
+/* for tablets */
+@media only screen and (max-width: 1400px),(min-width: 576px) {
+   
+}
+
+ .inventory{
+   padding: 30px 30px 20px;
+    }
+
+    .main-intro{
+        padding: 30px 30px 20px;
+    }
+    .btn{
+        width: 150px;
+    }
+.card {
+    margin-top: 20px;
+}
