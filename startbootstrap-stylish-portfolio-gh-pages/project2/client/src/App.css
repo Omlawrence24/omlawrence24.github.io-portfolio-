@@ -1,0 +1,94 @@
+body {
+  color:darkorange;
+  background: darkgray;
+  font-weight: 400;
+ 
+}
+.sign-btn{
+  text-align: center;
+}
+
+/* ***************GAMEDOCK********************* */
+
+.game-dock{
+ background: darkgrey;
+ 
+}
+
+/* ********************HEADERQUOTE********************** */
+
+.title {
+  color:darkorang;
+  margin-top: -12rem;
+margin-left: 8rem;
+  font-size: 3rem;
+  font-family: 'Courier New', Courier, monospace;
+  
+}
+
+.title2 {
+  color:darkorang;
+  margin-left: 17rem;
+  font-size: 3rem;
+  margin-top: -2.80rem;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/* **************************login model************************************** */
+.logoutm{
+  font-weight: bolder;
+  font-size: xx-large;
+  font-family: monospace;
+  color: darkorange;
+
+}
+
+
+.signin-buttons{
+ margin-left: -40rem;
+ margin-bottom: -5rem;
+}
+
+.login-title-1{
+  font-family: monospace;
+  font-size: 30px;
+  font-weight: bolder;
+}
+.login-title-2{
+  font-size: 25px;
+  font-weight: bolder;
+  font-family: monospace;
+}
+
+.login-title-3{
+  font-size: 25px;
+  font-family: monospace;
+  font-weight: bolder;
+}
+/* ***************************EXIT GAME****************************** */
+.exit-game{
+font-size: 25px;
+  font-family: monospace;
+  font-weight: bolder;
+color: darkorange;
+margin-top: -5px;
+}
+/* **************************RESPONSIVE************************************** */
+
+@media(min-width: 1273px) {
+  header{
+    margin:inherit;
+  }
+
+}
+
+
+@media(max-width: 500px) {
+.main-info h1{
+  font-size: 1.7rem !important;
+}
+.typed-text {
+  font-size: 1.3rem !important;
+}
+
+}

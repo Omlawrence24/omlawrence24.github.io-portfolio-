@@ -1,0 +1,114 @@
+.header1 {
+    font-size: larger;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+   
+    color:black;
+    /* background: url); */
+    background:dimgrey;
+} 
+
+.login-button{
+    margin-left: 100rem;
+    margin-top: -3.6rem;
+}
+
+.callout {
+ margin-top: -3rem; 
+} 
+
+.score{
+    margin: auto;
+}
+
+
+.sign{
+    margin: auto;
+}
+
+.title3 {
+    color:black;
+    font-size:55px;
+    font-family: monospace;  
+    margin-top: -16rem;  
+    margin-left: 7.5rem;
+}
+
+.title4 {
+    font-size: 49px;
+    color:black;
+    font-family: monospace;
+    margin-left: 200px;
+    margin-bottom: 10px;
+}
+.btn {
+    margin-bottom: 1rem;
+}
+
+.logo{
+    margin-bottom:75px;
+    margin-top: -11px;
+}
+.typed-text{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 5px;
+
+}
+
+@media screen and (max-width:375px) {
+    .title3{
+        font-size: 21px;
+        display:inline-block;
+        margin-left: -1.5rem; 
+        margin-right:-1rem;
+        margin-top:-5rem;
+    
+         
+    }
+    .title4{
+        font-size: 20px;
+        display:inline-block;
+        margin-left: 2rem;
+
+         
+    }
+    .logo{
+       margin-left: 3rem;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1009px) {
+    .title3{
+        font-size: 33px;
+        
+        margin-left: -6rem; 
+        margin-right:-20rem;
+        margin-bottom: 23rem;
+        margin-top: -12rem;
+        padding-top:1rem ;
+        
+    }
+    .title4{
+        font-size: 30px;
+        /* display:inline-block; */
+        margin-left: 15rem;
+        margin-top: -22rem;  
+        margin-bottom: 1rem; 
+        text-align: center;
+    } 
+    .logo{
+        margin: 0;
+    }
+} 
+@media screen and (min-width:1009px) and (max-width:1200px) {
+    .title3{
+        font-size: 40px;
+    }  
+    .title4{
+        font-size: 30px;
+    }
+}
